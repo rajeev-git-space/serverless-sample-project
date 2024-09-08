@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rajeev-git-space/serverless-sample-project/issues"
   },
-  "homepage": "https://github.com/rajeev-git-space/serverless-sample-project#readme"
+  "homepage": "https://github.com/rajeev-git-space/serverless-sample-project#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
