@@ -1,0 +1,19 @@
+{
+  "name": "serverless-sample-project",
+  "version": "1.0.0",
+  "description": "Serverless test project using basic crud operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajeev-git-space/serverless-sample-project.git"
+  },
+  "author": "Rajeev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajeev-git-space/serverless-sample-project/issues"
+  },
+  "homepage": "https://github.com/rajeev-git-space/serverless-sample-project#readme"
+}
