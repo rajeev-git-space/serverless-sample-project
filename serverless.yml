@@ -1,0 +1,14 @@
+service: serverless-crud-operations  # Your service name
+
+provider:
+  name: aws                          # The cloud provider is AWS
+  runtime: nodejs20.x                # The runtime for the Lambda function
+  region: ap-south-1                  # Specify the AWS region
+
+functions:
+  hello:
+    handler: handler.hello           # Points to the handler function in handler.js
+    events:
+      - http:
+          path: hello                # API Gateway path for the function
+          method: get                # HTTP method (GET)

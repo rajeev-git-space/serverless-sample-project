@@ -1,0 +1,79 @@
+{
+  "E:\\ServerlessProject\\serverless-sample-project": {
+    "versionSfCore": null,
+    "versionFramework": "4.2.5",
+    "isWithinCompose": false,
+    "isCompose": false,
+    "composeOrgName": null,
+    "composeResolverProviders": {
+      "default-aws-credential-resolver": "<REDACTED>"
+    },
+    "composeServiceName": null,
+    "servicePath": "E:\\ServerlessProject\\serverless-sample-project",
+    "serviceConfigFileName": "serverless.yml",
+    "service": {
+      "service": "serverless-crud-operations",
+      "provider": {
+        "name": "aws",
+        "runtime": "nodejs20.x",
+        "region": "ap-south-1",
+        "stage": "dev",
+        "versionFunctions": true
+      },
+      "functions": {
+        "hello": {
+          "handler": "handler.hello",
+          "events": [
+            {
+              "http": {
+                "path": "hello",
+                "method": "get"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "serviceRawFile": "service: serverless-crud-operations  # Your service name\r\n\r\nprovider:\r\n  name: aws                          # The cloud provider is AWS\r\n  runtime: nodejs20.x                # The runtime for the Lambda function\r\n  region: ap-south-1                  # Specify the AWS region\r\n\r\nfunctions:\r\n  hello:\r\n    handler: handler.hello           # Points to the handler function in handler.js\r\n    events:\r\n      - http:\r\n          path: hello                # API Gateway path for the function\r\n          method: get                # HTTP method (GET)\r\n",
+    "command": [
+      "create"
+    ],
+    "options": {
+      "template": "aws-nodejs",
+      "path": "serverless-crud"
+    },
+    "error": {
+      "message": "The \"create\" command was deprecated in v4. To create a new project, run the \"serverless\" command instead.",
+      "code": "UNRECOGNIZED_CLI_COMMAND"
+    },
+    "params": {},
+    "machineId": "a6ef572e0a2d45a97b7b731370c4657d",
+    "accessKeyV2": "<REDACTED>",
+    "accessKeyV1": "<REDACTED>",
+    "orgId": "88afae12-7562-47f0-b820-8e7419ac13f8",
+    "orgName": "rajeevguptapro7",
+    "userId": "LnjpKnvP9H9v8kxLf4",
+    "dashboard": {
+      "isEnabledForService": false,
+      "requiredAuthentication": false,
+      "orgFeaturesInUse": null,
+      "orgObservabilityIntegrations": null,
+      "serviceAppId": null,
+      "serviceProvider": null,
+      "instanceParameters": null
+    },
+    "userName": "rajeevguptapro7",
+    "subscription": null,
+    "userEmail": "rajeevguptapro7@gmail.com",
+    "serviceProviderAwsCredentials": "<REDACTED>",
+    "serviceProviderAwsAccountId": "478155242465",
+    "projectType": "framework",
+    "versionSf": "4.2.5",
+    "serviceProviderAwsCfStackName": "serverless-crud-operations-dev",
+    "serviceProviderAwsCfStackId": null,
+    "serviceProviderAwsCfStackCreated": null,
+    "serviceProviderAwsCfStackUpdated": null,
+    "serviceProviderAwsCfStackStatus": null,
+    "serviceProviderAwsCfStackOutputs": null
+  }
+}
